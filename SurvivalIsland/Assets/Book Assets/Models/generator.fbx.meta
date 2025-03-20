@@ -15,6 +15,8 @@ ModelImporter:
     3300002: generator
     4300000: generator
     4300002: chargeMeter
+    6400000: chargeMeter
+    6400002: generator
     7400000: Default Take
     11100000: //RootNode
   materials:
@@ -36,12 +38,12 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 1.60000002
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     weldVertices: 1

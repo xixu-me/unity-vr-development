@@ -4,6 +4,8 @@ using System.Collections;
 public class CoinScript : MonoBehaviour {
 
 	public float rotationSpeed = 100.0f;
+	public GUIText coinGUIText;
+
 	void Start () {
 	
 	}
@@ -19,6 +21,10 @@ public class CoinScript : MonoBehaviour {
 		{
 			collider.SendMessage("pickup");
             Destroy(this.gameObject);
+			// 触发显示金币数量
+			coinGUIText.SendMessage("showTextHint", InventoryScript.coinCount.ToString());
+			// 显示左下角图片和数量
+			collider.SendMessage("showCoinCount");
 		}
 	}
 }

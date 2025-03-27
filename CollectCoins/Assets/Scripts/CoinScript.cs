@@ -4,27 +4,22 @@ using System.Collections;
 public class CoinScript : MonoBehaviour {
 
 	public float rotationSpeed = 100.0f;
-	public GUIText coinGUIText;
+	GameObject player;
 
 	void Start () {
-	
+		player = GameObject.Find("First Person Controller");
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		transform.Rotate(0, 0, rotationSpeed * Time.deltaTime);
 	}
 
 	void OnTriggerEnter(Collider collider)
 	{
-		if (collider.gameObject.tag == "Player")
+		if (collider.gameObject.tag == "Player" || collider.gameObject.tag == "Bullet")
 		{
-			collider.SendMessage("pickup");
+            player.SendMessage("pickup");
             Destroy(this.gameObject);
-			// 触发显示金币数量
-			coinGUIText.SendMessage("showTextHint", InventoryScript.coinCount.ToString());
-			// 显示左下角图片和数量
-			collider.SendMessage("showCoinCount");
 		}
 	}
 }

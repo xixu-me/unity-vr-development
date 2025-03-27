@@ -8,7 +8,9 @@ public class InventoryScript : MonoBehaviour {
 	public static int coinCount = 0;
 	public GUIText coinCountText;
 	public GUITexture coinPic;
-	void Start () {
+    public GUIText coinGUIText;
+
+    void Start () {
 	
 	}
 	
@@ -21,7 +23,12 @@ public class InventoryScript : MonoBehaviour {
 	{
 		AudioSource.PlayClipAtPoint(pickupSound, transform.position);
 		coinCount++;
-	}
+
+        // 触发显示金币数量
+        coinGUIText.SendMessage("showTextHint", coinCount.ToString());
+        // 显示左下角图片和数量
+		showCoinCount();
+    }
 
 	void showCoinCount()
 	{

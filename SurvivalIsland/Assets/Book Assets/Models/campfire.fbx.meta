@@ -3,100 +3,100 @@ guid: ce040982d3c2c4754a6d5d6ccda0cdd8
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: rock8
-    100002: rock7
-    100004: rock9
-    100006: rock5
+    100000: //RootNode
+    100002: rock1
+    100004: rock2
+    100006: rock3
     100008: rock4
-    100010: rock6
-    100012: rock2
-    100014: rock1
-    100016: rock3
-    100018: stick13
-    100020: stick12
-    100022: stick14
-    100024: stick10
-    100026: stick9
-    100028: stick11
-    100030: stick7
-    100032: stick6
-    100034: stick8
+    100010: rock5
+    100012: rock6
+    100014: rock7
+    100016: rock8
+    100018: rock9
+    100020: stick1
+    100022: stick10
+    100024: stick11
+    100026: stick12
+    100028: stick13
+    100030: stick14
+    100032: stick2
+    100034: stick3
     100036: stick4
-    100038: stick3
-    100040: stick5
-    100042: stick1
-    100044: //RootNode
-    100046: stick2
-    400000: rock8
-    400002: rock7
-    400004: rock9
-    400006: rock5
+    100038: stick5
+    100040: stick6
+    100042: stick7
+    100044: stick8
+    100046: stick9
+    400000: //RootNode
+    400002: rock1
+    400004: rock2
+    400006: rock3
     400008: rock4
-    400010: rock6
-    400012: rock2
-    400014: rock1
-    400016: rock3
-    400018: stick13
-    400020: stick12
-    400022: stick14
-    400024: stick10
-    400026: stick9
-    400028: stick11
-    400030: stick7
-    400032: stick6
-    400034: stick8
+    400010: rock5
+    400012: rock6
+    400014: rock7
+    400016: rock8
+    400018: rock9
+    400020: stick1
+    400022: stick10
+    400024: stick11
+    400026: stick12
+    400028: stick13
+    400030: stick14
+    400032: stick2
+    400034: stick3
     400036: stick4
-    400038: stick3
-    400040: stick5
-    400042: stick1
-    400044: //RootNode
-    400046: stick2
-    2300000: rock8
-    2300002: rock7
-    2300004: rock9
-    2300006: rock5
-    2300008: rock4
+    400038: stick5
+    400040: stick6
+    400042: stick7
+    400044: stick8
+    400046: stick9
+    2300000: rock1
+    2300002: rock2
+    2300004: rock3
+    2300006: rock4
+    2300008: rock5
     2300010: rock6
-    2300012: rock2
-    2300014: rock1
-    2300016: rock3
-    2300018: stick13
-    2300020: stick12
-    2300022: stick14
-    2300024: stick10
-    2300026: stick9
-    2300028: stick11
-    2300030: stick7
-    2300032: stick6
-    2300034: stick8
-    2300036: stick4
-    2300038: stick3
-    2300040: stick5
-    2300042: stick1
-    2300044: stick2
-    3300000: rock8
-    3300002: rock7
-    3300004: rock9
-    3300006: rock5
-    3300008: rock4
+    2300012: rock7
+    2300014: rock8
+    2300016: rock9
+    2300018: stick1
+    2300020: stick10
+    2300022: stick11
+    2300024: stick12
+    2300026: stick13
+    2300028: stick14
+    2300030: stick2
+    2300032: stick3
+    2300034: stick4
+    2300036: stick5
+    2300038: stick6
+    2300040: stick7
+    2300042: stick8
+    2300044: stick9
+    3300000: rock1
+    3300002: rock2
+    3300004: rock3
+    3300006: rock4
+    3300008: rock5
     3300010: rock6
-    3300012: rock2
-    3300014: rock1
-    3300016: rock3
-    3300018: stick13
-    3300020: stick12
-    3300022: stick14
-    3300024: stick10
-    3300026: stick9
-    3300028: stick11
-    3300030: stick7
-    3300032: stick6
-    3300034: stick8
-    3300036: stick4
-    3300038: stick3
-    3300040: stick5
-    3300042: stick1
-    3300044: stick2
+    3300012: rock7
+    3300014: rock8
+    3300016: rock9
+    3300018: stick1
+    3300020: stick10
+    3300022: stick11
+    3300024: stick12
+    3300026: stick13
+    3300028: stick14
+    3300030: stick2
+    3300032: stick3
+    3300034: stick4
+    3300036: stick5
+    3300038: stick6
+    3300040: stick7
+    3300042: stick8
+    3300044: stick9
     4300000: stick1
     4300002: stick2
     4300004: stick3
@@ -120,6 +120,29 @@ ModelImporter:
     4300040: rock7
     4300042: rock8
     4300044: rock9
+    6400000: rock1
+    6400002: rock2
+    6400004: rock3
+    6400006: rock4
+    6400008: rock5
+    6400010: rock6
+    6400012: rock7
+    6400014: rock8
+    6400016: rock9
+    6400018: stick1
+    6400020: stick10
+    6400022: stick11
+    6400024: stick12
+    6400026: stick13
+    6400028: stick14
+    6400030: stick2
+    6400032: stick3
+    6400034: stick4
+    6400036: stick5
+    6400038: stick6
+    6400040: stick7
+    6400042: stick8
+    6400044: stick9
     11100000: //RootNode
   materials:
     importMaterials: 1
@@ -140,12 +163,12 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .100000001
+    globalScale: .5
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     weldVertices: 1

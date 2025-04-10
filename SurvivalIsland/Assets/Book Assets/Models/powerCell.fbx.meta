@@ -3,14 +3,13 @@ guid: 46343425c2eef44398d93b235cc6378a
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: powerCell
-    400000: //RootNode
-    400002: powerCell
+    100000: powerCell
+    100002: //RootNode
+    400000: powerCell
+    400002: //RootNode
     2300000: powerCell
     3300000: powerCell
     4300000: powerCell
-    6400000: powerCell
     7400000: Default Take
     11100000: //RootNode
   materials:
@@ -34,7 +33,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1.60000002
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 1

@@ -8,6 +8,7 @@ public class TextHintScript : MonoBehaviour {
 	public float maxShowTime = 3.0f;
 	float timer = 0.0f;
 	public int maxfontSize = 100;
+	public int startFontSize = 25;
 
 	void Start () {
 	
@@ -26,6 +27,7 @@ public class TextHintScript : MonoBehaviour {
 			{
 				guiText.enabled = false;
 				timer = 0.0f;
+				guiText.fontSize = startFontSize;
 			}
 		}
 		

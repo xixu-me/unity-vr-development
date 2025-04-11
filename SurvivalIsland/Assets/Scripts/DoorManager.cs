@@ -44,7 +44,6 @@ public class DoorManager : MonoBehaviour
 		audio.PlayOneShot(aClip);
 		doorIsOpen = openCheck;
 		transform.parent.animation.Play(animName);
-
 	}
 }
 

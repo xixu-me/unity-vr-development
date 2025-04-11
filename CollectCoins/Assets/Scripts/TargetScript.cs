@@ -27,6 +27,10 @@ public class TargetScript : MonoBehaviour {
 		}
 	}
 
+	/// <summary>
+	/// 击中靶子
+	/// </summary>
+	/// <returns></returns>
 	IEnumerator targetHit()
 	{
         targetRoot.Play("down");

@@ -10,6 +10,8 @@ public class InventoryScript : MonoBehaviour {
 	public GUITexture coinPic;
     public GUIText coinGUIText;
 
+	public int winCoinCount = 20;
+	public GameObject winObj;
     void Start () {
 	
 	}
@@ -28,6 +30,13 @@ public class InventoryScript : MonoBehaviour {
         coinGUIText.SendMessage("showTextHint", coinCount.ToString());
         // 显示左下角图片和数量
 		showCoinCount();
+
+		if (coinCount == winCoinCount)
+		{
+			this.gameObject.GetComponent<CharacterController>().enabled = false;
+			this.gameObject.GetComponentInChildren<ShotScript>().enabled = false;
+			winObj.SendMessage("gameOver");
+		}
     }
 
 	void showCoinCount()
